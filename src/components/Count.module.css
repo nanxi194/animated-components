@@ -1,0 +1,32 @@
+.count {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: normal;
+  color: forestgreen;
+}
+
+/*********************************** responsive ************************************/
+
+/* Responsive */
+
+@media (min-width: 500px) {
+  .count {
+    font-size: 18px;
+  }
+}
+@media (min-width: 600px) {
+  .count {
+    font-size: 20px;
+  }
+}
+@media (min-width: 900px) {
+  .count {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .count {
+    font-size: 24px;
+  }
+}
