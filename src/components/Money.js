@@ -53,7 +53,7 @@ function Money() {
 
   return (
     <div className={classes.container}>
-      <Icons />
+      <Icons data={isIntersecting} />
       <div className={classes.cards} ref={ref}>
         <div className={classes.color}>
           <h1 className={classes.title}>Funded</h1>
